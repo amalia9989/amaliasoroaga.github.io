@@ -4256,3 +4256,14 @@ blockquote { border-left-color: rgb(62, 121, 189); background-color: rgb(236, 23
 .mil-footer-menu ul li a:hover, .mil-social-icons li a:hover { text-decoration: underline; }
 /* rotating dodecahedrons: 0.2 only read on pure black, keep them visible on the banner */
 .mil-dark-bg .mil-animation { opacity: 0.45; }
+/* Home banner: warm off-white background, dark text, red rotating shapes */
+.mil-banner-light:before { background-color: rgb(236, 234, 232); }
+.mil-banner-light .mil-muted { color: rgb(41, 35, 30); }
+.mil-banner-light .mil-light-soft { color: rgba(41, 35, 30, 0.78); }
+.mil-banner-light .mil-button { background-color: rgb(41, 35, 30); color: rgb(236, 234, 232); }
+.mil-banner-light .mil-link svg { background-color: rgba(41, 35, 30, 0.1); }
+.mil-banner-light .mil-link svg path { fill: rgb(41, 35, 30); }
+.mil-banner-light .mil-circle-text .mil-ct-svg text { fill: rgba(41, 35, 30, 0.6); }
+.mil-banner-light .mil-circle-text:hover svg text { fill: rgb(41, 35, 30); }
+.mil-banner-light .mil-pentagon div { border-top-color: rgb(232, 66, 67) !important; }
+.mil-banner-light .mil-animation { opacity: 1; }
