@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 120 2000 1110" width="2000" height="1110" font-family="Outfit, Helvetica Neue, Helvetica, Arial, sans-serif">
+  <title>Impact-effort matrix of the six recommendations</title>
+
+  <rect x="0" y="120" width="2000" height="1110" fill="#ffffff"/>
+
+  <!-- matrix -->
+  <rect x="250" y="150" width="1625" height="925" rx="36" fill="#ffffff" stroke="#1b1717" stroke-opacity="0.15" stroke-width="3"/>
+  <path d="M250 612 V186 A36 36 0 0 1 286 150 H1062 V612 Z" fill="#edebdd"/>
+  <g stroke="#1b1717" stroke-opacity="0.2" stroke-width="3" stroke-dasharray="10 10">
+    <line x1="1062" y1="150" x2="1062" y2="1075"/>
+    <line x1="250" y1="612" x2="1875" y2="612"/>
+  </g>
+
+  <!-- quadrant labels -->
+  <g font-size="21" font-weight="700" letter-spacing="3">
+    <text x="290" y="208" fill="#810100">QUICK WINS</text>
+    <text x="1835" y="208" fill="#6b6560" text-anchor="end">STRATEGIC</text>
+    <text x="290" y="1043" fill="#6b6560">NICE TO HAVE</text>
+    <text x="1835" y="1043" fill="#6b6560" text-anchor="end">LATER</text>
+  </g>
+
+  <!-- axes -->
+  <g font-size="23" fill="#6b6560">
+    <text x="225" y="188" text-anchor="end">Higher</text>
+    <text x="225" y="218" text-anchor="end">impact</text>
+    <text x="225" y="1045" text-anchor="end">Lower</text>
+    <text x="225" y="1075" text-anchor="end">impact</text>
+    <text x="250" y="1125">Lower effort</text>
+    <text x="1875" y="1125" text-anchor="end">Higher effort</text>
+    <text x="250" y="1200">Prioritization based on the study findings and the agency’s resources</text>
+  </g>
+
+  <!-- recommendations -->
+  <g font-size="27" font-weight="700">
+    <circle cx="362" cy="300" r="27" fill="#810100"/>
+    <text x="362" y="310" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="408" y="310" fill="#1b1717">Bring UX into the room</text>
+
+    <circle cx="362" cy="413" r="27" fill="#810100"/>
+    <text x="362" y="423" fill="#ffffff" text-anchor="middle">6</text>
+    <text x="408" y="423" fill="#1b1717">Give UX a clear mandate</text>
+
+    <circle cx="587" cy="525" r="27" fill="#810100"/>
+    <text x="587" y="535" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="633" y="535" fill="#1b1717">Offer UX in business language</text>
+
+    <circle cx="1162" cy="300" r="27" fill="#810100"/>
+    <text x="1162" y="310" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="1208" y="310" fill="#1b1717">UX quick check in maintenance</text>
+
+    <circle cx="1262" cy="463" r="27" fill="#810100"/>
+    <text x="1262" y="473" fill="#ffffff" text-anchor="middle">4</text>
+    <text x="1308" y="473" fill="#1b1717">Document UX references</text>
+
+    <circle cx="1437" cy="825" r="27" fill="#810100"/>
+    <text x="1437" y="835" fill="#ffffff" text-anchor="middle">5</text>
+    <text x="1483" y="835" fill="#1b1717">Flexible UX workshops</text>
+  </g>
+</svg>
