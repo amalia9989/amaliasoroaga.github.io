@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 920" width="2000" height="920" font-family="Outfit, Helvetica Neue, Helvetica, Arial, sans-serif">
+  <title>Agency, clients and end users: the agency has no direct access to end users</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1b1717"/>
+    </marker>
+    <marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8f8a85"/>
+    </marker>
+  </defs>
+
+  <rect width="2000" height="920" fill="#ffffff"/>
+
+  <!-- Agency -->
+  <rect x="100" y="150" width="700" height="520" rx="36" fill="#ffffff" stroke="#1b1717" stroke-opacity="0.15" stroke-width="3"/>
+  <text x="150" y="228" font-size="44" font-weight="700" fill="#1b1717">Agency</text>
+
+  <rect x="150" y="280" width="280" height="66" rx="33" fill="#edebdd"/>
+  <text x="290" y="323" font-size="25" fill="#1b1717" text-anchor="middle">Developers</text>
+  <rect x="456" y="280" width="294" height="66" rx="33" fill="#edebdd"/>
+  <text x="603" y="323" font-size="25" fill="#1b1717" text-anchor="middle">Project manager</text>
+  <rect x="150" y="370" width="280" height="66" rx="33" fill="#edebdd"/>
+  <text x="290" y="413" font-size="25" fill="#1b1717" text-anchor="middle">Online marketing</text>
+  <rect x="456" y="370" width="294" height="66" rx="33" fill="#edebdd"/>
+  <text x="603" y="413" font-size="25" fill="#1b1717" text-anchor="middle">CEO</text>
+
+  <path d="M603 444 L530 552" stroke="#8f8a85" stroke-width="3" stroke-dasharray="8 8" fill="none" marker-end="url(#arrow-grey)"/>
+  <text x="625" y="505" font-size="21" fill="#6b6560">relayed</text>
+
+  <rect x="150" y="565" width="600" height="74" rx="37" fill="#edebdd" stroke="#1b1717" stroke-width="3"/>
+  <text x="450" y="612" font-size="27" font-weight="700" fill="#1b1717" text-anchor="middle">UX designer</text>
+
+  <!-- Agency ↔ Clients -->
+  <line x1="812" y1="362" x2="988" y2="362" stroke="#1b1717" stroke-width="4" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="900" y="413" font-size="21" fill="#6b6560" text-anchor="middle">Daily contact</text>
+  <text x="900" y="440" font-size="21" fill="#6b6560" text-anchor="middle">via PM &amp; devs</text>
+
+  <!-- Clients -->
+  <rect x="1000" y="250" width="400" height="300" rx="36" fill="#ffffff" stroke="#1b1717" stroke-opacity="0.15" stroke-width="3"/>
+  <text x="1050" y="326" font-size="44" font-weight="700" fill="#1b1717">Clients</text>
+  <text x="1050" y="370" font-size="24" fill="#6b6560">Business owners,</text>
+  <text x="1050" y="403" font-size="24" fill="#6b6560">marketing &amp; shop leads</text>
+
+  <!-- Clients ↔ End users -->
+  <line x1="1412" y1="400" x2="1580" y2="400" stroke="#1b1717" stroke-width="4" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="1496" y="450" font-size="21" fill="#6b6560" text-anchor="middle">Know them</text>
+  <text x="1496" y="477" font-size="21" fill="#6b6560" text-anchor="middle">from experience</text>
+
+  <!-- End users -->
+  <rect x="1593" y="250" width="320" height="300" rx="36" fill="#ffffff" stroke="#1b1717" stroke-opacity="0.45" stroke-width="3" stroke-dasharray="14 10"/>
+  <text x="1632" y="326" font-size="44" font-weight="700" fill="#1b1717">End users</text>
+  <text x="1632" y="370" font-size="24" fill="#6b6560">The clients’ own</text>
+  <text x="1632" y="403" font-size="24" fill="#6b6560">customers</text>
+
+  <!-- No direct access -->
+  <path d="M700 676 C 720 800, 1000 790, 1215 790 C 1450 790, 1740 720, 1752 560" stroke="#810100" stroke-width="4" stroke-dasharray="12 10" fill="none"/>
+  <circle cx="1215" cy="790" r="26" fill="#810100"/>
+  <path d="M1203 778 L1227 802 M1227 778 L1203 802" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+  <text x="1215" y="862" font-size="26" font-weight="700" fill="#810100" text-anchor="middle">No direct access to end users</text>
+</svg>
