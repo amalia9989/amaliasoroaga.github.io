@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 900" width="2000" height="900" font-family="Outfit, Helvetica Neue, Helvetica, Arial, sans-serif">
+  <title>UEQ-S results: pragmatic quality about +1.6 (positive), hedonic quality about +0.3 (neutral)</title>
+
+  <rect width="2000" height="900" fill="#ffffff"/>
+
+  <!-- scale -3 … +3: y = 450 - value * 110 -->
+  <rect x="300" y="120" width="1500" height="242" fill="#edebdd"/>
+  <g font-size="22" font-weight="700" letter-spacing="2.5" fill="#6b6560" text-anchor="end">
+    <text x="1780" y="160">POSITIVE</text>
+    <text x="1780" y="512">NEUTRAL</text>
+    <text x="1780" y="760">NEGATIVE</text>
+  </g>
+
+  <g stroke="#1b1717" stroke-opacity="0.12" stroke-width="2">
+    <line x1="300" y1="120" x2="1800" y2="120"/>
+    <line x1="300" y1="230" x2="1800" y2="230"/>
+    <line x1="300" y1="340" x2="1800" y2="340"/>
+    <line x1="300" y1="560" x2="1800" y2="560"/>
+    <line x1="300" y1="670" x2="1800" y2="670"/>
+    <line x1="300" y1="780" x2="1800" y2="780"/>
+  </g>
+  <g stroke="#1b1717" stroke-opacity="0.3" stroke-width="2" stroke-dasharray="8 8">
+    <line x1="300" y1="362" x2="1800" y2="362"/>
+    <line x1="300" y1="538" x2="1800" y2="538"/>
+  </g>
+  <line x1="300" y1="450" x2="1800" y2="450" stroke="#1b1717" stroke-width="3"/>
+
+  <g font-size="24" fill="#6b6560" text-anchor="end">
+    <text x="270" y="128">+3</text>
+    <text x="270" y="238">+2</text>
+    <text x="270" y="348">+1</text>
+    <text x="270" y="458">0</text>
+    <text x="270" y="568">−1</text>
+    <text x="270" y="678">−2</text>
+    <text x="270" y="788">−3</text>
+  </g>
+
+  <!-- bars -->
+  <rect x="620" y="274" width="260" height="176" fill="#810100"/>
+  <rect x="1220" y="417" width="260" height="33" fill="#1b1717" fill-opacity="0.55"/>
+
+  <g text-anchor="middle">
+    <text x="750" y="250" font-size="34" font-weight="700" fill="#1b1717">≈ +1.6</text>
+    <text x="1350" y="393" font-size="34" font-weight="700" fill="#1b1717">≈ +0.3</text>
+    <text x="750" y="840" font-size="28" font-weight="700" fill="#1b1717">Pragmatic quality</text>
+    <text x="750" y="876" font-size="22" fill="#6b6560">clear, efficient, easy</text>
+    <text x="1350" y="840" font-size="28" font-weight="700" fill="#1b1717">Hedonic quality</text>
+    <text x="1350" y="876" font-size="22" fill="#6b6560">exciting, inventive</text>
+  </g>
+</svg>
