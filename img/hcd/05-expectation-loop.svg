@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 120 2000 1070" width="2000" height="1070" font-family="Outfit, Helvetica Neue, Helvetica, Arial, sans-serif">
+  <title>The mutual expectation gap: a loop between agency and clients</title>
+  <defs>
+    <marker id="head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#810100"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="120" width="2000" height="1070" fill="#ffffff"/>
+
+  <!-- loop arrows -->
+  <g stroke="#810100" stroke-width="4" fill="none" marker-end="url(#head)">
+    <path d="M1226 238 C 1430 238, 1545 360, 1550 545"/>
+    <path d="M1550 752 C 1550 960, 1440 1075, 1238 1075"/>
+    <path d="M768 1075 C 560 1075, 452 960, 450 755"/>
+    <path d="M450 550 C 450 340, 560 238, 765 238"/>
+  </g>
+
+  <!-- break the loop -->
+  <circle cx="1467" cy="317" r="20" fill="#1b1717"/>
+  <path d="M1457 317 L1464 324 L1478 309" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1503" y="326" font-size="25" font-weight="700" fill="#1b1717">Break the loop here</text>
+
+  <!-- cards -->
+  <g fill="#ffffff" stroke="#1b1717" stroke-opacity="0.15" stroke-width="3">
+    <rect x="781" y="153" width="437" height="169" rx="28"/>
+    <rect x="1331" y="565" width="437" height="169" rx="28"/>
+    <rect x="781" y="990" width="437" height="169" rx="28"/>
+    <rect x="231" y="565" width="437" height="169" rx="28"/>
+  </g>
+
+  <g text-anchor="middle">
+    <g font-size="20" font-weight="700" letter-spacing="2.5" fill="#810100">
+      <text x="1000" y="205">1 · AGENCY</text>
+      <text x="1550" y="617">2 · AGENCY</text>
+      <text x="1000" y="1042">3 · CLIENT</text>
+      <text x="450" y="617">4 · CLIENT</text>
+    </g>
+    <g font-size="31" font-weight="700" fill="#1b1717">
+      <text x="1000" y="252">Assumes clients</text>
+      <text x="1000" y="292">won’t pay for UX</text>
+      <text x="1550" y="664">Rarely offers UX</text>
+      <text x="1550" y="704">proactively</text>
+      <text x="1000" y="1089">Doesn’t know what</text>
+      <text x="1000" y="1129">UX could do</text>
+      <text x="450" y="664">Doesn’t ask</text>
+      <text x="450" y="704">for UX</text>
+    </g>
+    <g font-size="54" font-weight="700" fill="#1b1717">
+      <text x="1000" y="627">Mutual</text>
+      <text x="1000" y="692">expectation gap</text>
+    </g>
+  </g>
+</svg>
