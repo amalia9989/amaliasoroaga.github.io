@@ -4292,3 +4292,36 @@ blockquote { border-left-color: rgb(99, 0, 0); background-color: rgb(237, 235, 2
 .mil-swatches { display: flex; flex-wrap: wrap; gap: 15px 40px; }
 .mil-swatch { display: flex; align-items: center; gap: 12px; font-size: 15px; color: rgb(27, 23, 23); }
 .mil-swatch span { width: 28px; height: 28px; border-radius: 8px; flex-shrink: 0; }
+/* Feedback round (Nov 2026) */
+/* project info row: label in cherry red, value in noir black */
+.mil-info > div { color: rgb(129, 1, 0); }
+.mil-info .mil-dark { color: rgb(27, 23, 23); }
+/* zoom button: always visible and dark, so it doesn't get lost on white images */
+.mil-image-frame .mil-zoom-btn,
+.mil-zoom-badge { opacity: 1; transform: none; z-index: 2; background-color: rgba(27, 23, 23, 0.85); box-shadow: 0 2px 8px rgba(27, 23, 23, 0.2); }
+.mil-image-frame .mil-zoom-btn:hover,
+.mil-zoom-link:hover .mil-zoom-badge { background-color: rgb(129, 1, 0); }
+.mil-image-frame .mil-zoom-btn img,
+.mil-zoom-badge img { filter: invert(1); }
+.mil-zoom-link { position: relative; }
+.mil-zoom-badge { position: absolute; top: 15px; right: 15px; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.4s cubic-bezier(0, 0, 0.3642, 1); }
+.mil-zoom-badge img { width: 17px; height: 17px; }
+@media screen and (max-width: 768px) {
+  .mil-image-frame .mil-zoom-btn { top: 15px; right: 15px; }
+}
+/* body text: larger and darker on desktop for readability */
+body { color: rgba(27, 23, 23, 0.86); }
+@media screen and (min-width: 993px) {
+  body { font-size: 18px; }
+  .mil-text-sm { font-size: 16px; }
+  .mil-data-table { font-size: 16px; }
+}
+.mil-data-table { color: rgba(27, 23, 23, 0.86); }
+/* homepage project cards: title above the image, so it cannot be read as the heading of the next card */
+.mil-portfolio .mil-portfolio-item { display: flex; flex-direction: column; }
+.mil-portfolio .mil-portfolio-item .mil-descr { order: -1; margin-bottom: 25px; }
+.mil-portfolio .mil-portfolio-item .mil-cover-frame { margin-bottom: 0; }
+.mil-portfolio .mil-portfolio-item.mil-mb-60 { margin-bottom: 120px; }
+@media screen and (max-width: 992px) {
+  .mil-portfolio .mil-portfolio-item.mil-mb-60 { margin-bottom: 60px; }
+}
