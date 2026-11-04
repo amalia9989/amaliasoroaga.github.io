@@ -4325,3 +4325,10 @@ body { color: rgba(27, 23, 23, 0.86); }
 @media screen and (max-width: 992px) {
   .mil-portfolio .mil-portfolio-item.mil-mb-60 { margin-bottom: 60px; }
 }
+/* info row: keep a gap between items and wrap instead of colliding when values are long */
+@media screen and (min-width: 993px) {
+  .mil-info { flex-wrap: wrap; gap: 15px 40px; height: auto; min-height: 120px; padding: 30px 0; }
+}
+@media screen and (min-width: 993px) and (max-width: 1399px) {
+  .mil-info { justify-content: flex-start; column-gap: 50px; }
+}
