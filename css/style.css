@@ -4288,3 +4288,7 @@ blockquote { border-left-color: rgb(99, 0, 0); background-color: rgb(237, 235, 2
 .mil-data-table th { text-align: left; font-size: 12px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: rgb(129, 1, 0); padding: 0 20px 15px 0; border-bottom: solid 2px rgba(27, 23, 23, 0.15); }
 .mil-data-table td { padding: 15px 20px 15px 0; border-bottom: solid 1px rgba(27, 23, 23, 0.1); vertical-align: top; }
 .mil-data-table td:not(:last-child) { white-space: nowrap; color: rgb(27, 23, 23); }
+/* DOSB case study: category colour swatches */
+.mil-swatches { display: flex; flex-wrap: wrap; gap: 15px 40px; }
+.mil-swatch { display: flex; align-items: center; gap: 12px; font-size: 15px; color: rgb(27, 23, 23); }
+.mil-swatch span { width: 28px; height: 28px; border-radius: 8px; flex-shrink: 0; }
