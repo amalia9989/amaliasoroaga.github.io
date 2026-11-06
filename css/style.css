@@ -4332,3 +4332,5 @@ body { color: rgba(27, 23, 23, 0.86); }
 @media screen and (min-width: 993px) and (max-width: 1399px) {
   .mil-info { justify-content: flex-start; column-gap: 50px; }
 }
+.mil-p-90-0 { padding-top: 90px; }
+@media screen and (max-width: 992px) { .mil-p-90-0 { padding-top: 60px; } }
