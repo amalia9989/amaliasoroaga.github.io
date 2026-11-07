@@ -4334,4 +4334,4 @@ body { color: rgba(27, 23, 23, 0.86); }
 }
 .mil-p-90-0 { padding-top: 90px; }
 @media screen and (max-width: 992px) { .mil-p-90-0 { padding-top: 60px; } }
-.mil-cv-links { display: flex; flex-wrap: wrap; gap: 15px 50px; }
+.mil-cv-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px 50px; }
