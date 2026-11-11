@@ -4335,3 +4335,10 @@ body { color: rgba(27, 23, 23, 0.86); }
 .mil-p-90-0 { padding-top: 90px; }
 @media screen and (max-width: 992px) { .mil-p-90-0 { padding-top: 60px; } }
 .mil-cv-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px 50px; }
+
+/* Work-in-progress badge (Podologie project) */
+.mil-wip-badge { display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px; border-radius: 40px; background-color: rgb(27, 23, 23); color: #fff; font-size: 12px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; line-height: 1.2; }
+.mil-wip-badge::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background-color: rgb(255, 184, 0); animation: mil-wip-pulse 1.6s ease-in-out infinite; }
+.mil-wip-badge-cover { position: absolute; top: 15px; left: 15px; z-index: 2; box-shadow: 0 2px 8px rgba(27, 23, 23, 0.2); }
+@keyframes mil-wip-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+@media (prefers-reduced-motion: reduce) { .mil-wip-badge::before { animation: none; } }
